@@ -147,7 +147,7 @@ exports.hook = function (builder, options) {
 						var base64String = assetFiles[assetUrl].toString('base64');
 
 						// Replace all occurences of URL with base64 data url
-						var urlRegex = new RegExp("url\\('" + assetUrl + "'\\)", 'g');
+						var urlRegex = new RegExp("url\\(['\"]?" + assetUrl + "['\"]?\\)", 'g');
 						fileData = fileData.replace(urlRegex, 'url(data:' + mimeType + ';base64,' + base64String + ')');
 					}
 
