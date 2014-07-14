@@ -1,6 +1,6 @@
 {
-  "name": "component-urlrewrite",
-  "description": "A collection of plugins to rewrite CSS urls for the component builder",
+  "name": "component-url2base64",
+  "description": "A component builder plugin to rewrite CSS urls to their base64 data counterpart",
   "version": "0.1.0",
   "author": {
     "name": "Wizcorp K.K.",
@@ -24,15 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Wizcorp/component-urlrewrite.git"
+    "url": "https://github.com/Wizcorp/component-url2base64.git"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Wizcorp/component-urlrewrite/blob/master/LICENSE"
+      "url": "https://github.com/Wizcorp/component-url2base64/blob/master/LICENSE"
     }
   ],
   "bugs": {
-    "url": "https://github.com/Wizcorp/component-urlrewrite/issues"
+    "url": "https://github.com/Wizcorp/component-url2base64/issues"
   }
 }
