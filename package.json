@@ -1,0 +1,38 @@
+{
+  "name": "component-urlrewrite",
+  "description": "A collection of plugins to rewrite CSS urls for the component builder",
+  "version": "0.1.0",
+  "author": {
+    "name": "Wizcorp K.K.",
+    "email": "info@wizcorp.jp"
+  },
+  "homepage": "http://www.wizcorp.jp",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "maintainers": [
+    {
+      "name": "almirkadric",
+      "email": "almir@kadric.com"
+    }
+  ],
+  "dependencies": {
+    "async": "0.2.10",
+	"mime": "1.2.11"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wizcorp/component-urlrewrite.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Wizcorp/component-urlrewrite/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Wizcorp/component-urlrewrite/issues"
+  }
+}
