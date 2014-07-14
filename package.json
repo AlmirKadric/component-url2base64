@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "async": "0.2.10",
-	"mime": "1.2.11"
+    "mime": "1.2.11"
   },
   "devDependencies": {
   },
